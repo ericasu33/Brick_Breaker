@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Parcel Sandbox</title>
+    <meta charset="UTF-8" />
+
+    <style>
+      #gameScreen {
+        border: 3px solid black;
+      }
+
+      img {
+        display: none;
+      }
+    </style>
+  </head>
+
+  <body>
+    <img id="img_ball" src="assets/images/ball.png" alt="ball" />
+    <img id="img_brick" src="assets/images/brick.png" alt="brick" />
+
+    <img id="paused" src="assets/images/pause.gif" alt="pause" />
+    <img id="start" src="assets/images/start.png" alt="start" />
+    <img id="gameover" src="assets/images/gameover.png" alt="start" />
+    <img id="lives" src="assets/images/lives.png" alt="start" />
+
+    <canvas id="gameScreen" width="800" height="600"> </canvas>
+
+    <script src="src/index.js"></script>
+  </body>
+</html>
